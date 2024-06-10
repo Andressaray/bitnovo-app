@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Euro",
+        "symbol": "€",
+        "suffix": "€",
+        "prefix": "",
+        "code": "EUR",
+        "enabled": true,
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/eu"
+    },
+    {
+        "id": 2,
+        "name": "Dolar Estadounidense",
+        "symbol": "$",
+        "suffix": "",
+        "prefix": "$",
+        "code": "USD",
+        "enabled": true,
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/us"
+    },
+    {
+        "id": 3,
+        "name": "Libra Esterlina",
+        "symbol": "£",
+        "suffix": "£",
+        "prefix": "",
+        "code": "GBP",
+        "enabled": true,
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/gb"
+    }
+]

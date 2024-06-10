@@ -12,8 +12,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		68503A77DD194B53885CC8D3 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2971FE248A34C50A0D63B5B /* Mulish-Bold.ttf */; };
+		75E908F11C214857803F4BB9 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFC420D80B944DD9B856F52 /* Mulish-Black.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-bitnovoAppRn-bitnovoAppRnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-bitnovoAppRn-bitnovoAppRnTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		86E2FF698A344983A94EE717 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2686859C15734C23ACEC595A /* Mulish-Regular.ttf */; };
 		B42178746B0D3002E550EFEA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA3C40577EF690E1416398 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = bitnovoAppRn/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = bitnovoAppRn/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-bitnovoAppRn-bitnovoAppRnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bitnovoAppRn-bitnovoAppRnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2686859C15734C23ACEC595A /* Mulish-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Regular.ttf"; path = "../assets/fonts/Mulish-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-bitnovoAppRn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitnovoAppRn.debug.xcconfig"; path = "Target Support Files/Pods-bitnovoAppRn/Pods-bitnovoAppRn.debug.xcconfig"; sourceTree = "<group>"; };
 		3DFA3C40577EF690E1416398 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = bitnovoAppRn/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-bitnovoAppRn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitnovoAppRn.release.xcconfig"; path = "Target Support Files/Pods-bitnovoAppRn/Pods-bitnovoAppRn.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-bitnovoAppRn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bitnovoAppRn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = bitnovoAppRn/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-bitnovoAppRn-bitnovoAppRnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitnovoAppRn-bitnovoAppRnTests.release.xcconfig"; path = "Target Support Files/Pods-bitnovoAppRn-bitnovoAppRnTests/Pods-bitnovoAppRn-bitnovoAppRnTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AFC420D80B944DD9B856F52 /* Mulish-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Black.ttf"; path = "../assets/fonts/Mulish-Black.ttf"; sourceTree = "<group>"; };
+		B2971FE248A34C50A0D63B5B /* Mulish-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Bold.ttf"; path = "../assets/fonts/Mulish-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -127,6 +133,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BF38973852D34911AC72C7A3 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,6 +158,17 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-bitnovoAppRn-bitnovoAppRnTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF38973852D34911AC72C7A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AFC420D80B944DD9B856F52 /* Mulish-Black.ttf */,
+				B2971FE248A34C50A0D63B5B /* Mulish-Bold.ttf */,
+				2686859C15734C23ACEC595A /* Mulish-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +267,9 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				B42178746B0D3002E550EFEA /* PrivacyInfo.xcprivacy in Resources */,
+				75E908F11C214857803F4BB9 /* Mulish-Black.ttf in Resources */,
+				68503A77DD194B53885CC8D3 /* Mulish-Bold.ttf in Resources */,
+				86E2FF698A344983A94EE717 /* Mulish-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

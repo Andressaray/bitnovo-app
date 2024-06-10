@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "España",
+        "indicative": "+34",
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/es"
+    },
+    {
+        "id": 2,
+        "name": "Equatorial Guinea",
+        "indicative": "+240",
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/gq"
+    },
+    {
+        "id": 3,
+        "name": "Grecia",
+        "indicative": "+30",
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/gr"
+    },
+    {
+        "id": 4,
+        "name": "South Georgia and the South Sandwich Islands",
+        "indicative": "+500",
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/gs"
+    },
+    {
+        "id": 5,
+        "name": "Guatemala",
+        "indicative": "+502",
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/gt"
+    },
+    {
+        "id": 6,
+        "name": "Guyana",
+        "indicative": "+592",
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/gy"
+    },
+    {
+        "id": 7,
+        "name": "Hong Kong",
+        "indicative": "+852",
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/hk"
+    },
+    {
+        "id": 8,
+        "name": "Honduras",
+        "indicative": "+504",
+        "icon": "https://res.cloudinary.com/villavicencio/image/upload/f_auto,q_auto/v1/flags/hn"
+    }
+]

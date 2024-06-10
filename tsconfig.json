@@ -1,3 +1,14 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ui/*": ["src/ui/*"],
+      "@theme": ["src/ui/theme/index.ts"],
+      "@components": ["src/ui/components/index.ts"],
+      "@icons/*": ["assets/images/icons/*"]
+    }
+  },
+  "include": ["src", "index.d.ts"]
 }
