@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {Button, Label} from '@components';
-import {colors} from '@ui/theme/index';
+import {colors} from '@theme';
 import useCurrencyStore from '@ui/store/currency';
 import usePaymentStore from '@ui/store/payment';
 import CountCharacters from '../countCharacters';

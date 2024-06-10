@@ -1,7 +1,7 @@
 import {Text, View} from 'react-native';
 import QRCode from 'react-native-qrcode-svg';
 import ILogo from '@icons/logo.jpeg';
-import {colors} from '@ui/theme';
+import {colors} from '@theme';
 import styles from './style';
 import {Props} from './type';
 

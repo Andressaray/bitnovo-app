@@ -5,8 +5,11 @@ const styles = StyleSheet.create({
   input: {
     borderWidth: 0.6,
     borderRadius: 6,
+    paddingHorizontal: 10,
+    verticalAlign: 'top',
     padding: 15,
     maxHeight: 140,
+    textAlignVertical: 'top',
     fontFamily: fonts.bold,
     lineHeight: 20,
     marginTop: 10,

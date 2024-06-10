@@ -10,7 +10,7 @@ import IEmail from '@icons/mail.svg';
 import styles from './style';
 import {Props} from './type';
 import BtnSend from '../btnSend';
-import {colors} from '@ui/theme/index';
+import {colors} from '@theme';
 
 const ShareEmail = ({isFocused, handleFocus, handlePress}: Props) => {
   const [email, setEmail] = useState<string>('');

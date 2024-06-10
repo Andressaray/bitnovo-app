@@ -1,4 +1,4 @@
-import {colors, fonts} from '@ui/theme';
+import {colors, fonts} from '@theme';
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({

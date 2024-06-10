@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {colors, fonts} from '@ui/theme/index';
+import {colors, fonts} from '@theme';
 
 const styles = StyleSheet.create({
   btn: {
@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: colors.light.blue,
   },
+  textInput: {
+    width: '60%',
+  },
   textDark: {
     color: colors.dark.white,
   },
@@ -33,13 +36,12 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     flex: 1,
-    gap: 5,
     alignItems: 'center',
     justifyContent: 'space-between',
   },
   contentNumbers: {
     flexDirection: 'row',
-    gap: 10,
+    gap: 5,
   },
   textCode: {
     fontFamily: fonts.regular,
@@ -48,8 +50,8 @@ const styles = StyleSheet.create({
   },
   btnPrefix: {
     flexDirection: 'row',
-    gap: 5,
     alignItems: 'center',
+    gap: 5,
   },
   btnPressedDark: {
     borderColor: colors.light.blue100,

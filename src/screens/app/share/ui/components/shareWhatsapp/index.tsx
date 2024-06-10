@@ -65,7 +65,7 @@ const ButtonWhatsapp = ({
             <TextInput
               maxLength={14}
               autoFocus={true}
-              style={[styles.textCode, textColor]}
+              style={[styles.textCode, styles.textInput, textColor]}
               value={formatNumber(phone)}
               onChangeText={v => setPhone(v)}
               placeholderTextColor={textColor.color}

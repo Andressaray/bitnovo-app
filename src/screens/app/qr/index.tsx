@@ -6,6 +6,7 @@ import formatMoney from '@ui/utils/formats/formatMoney';
 import useCurrencyStore from '@ui/store/currency';
 import {Badge, QrContent} from './ui/components';
 import styles from './style';
+import {View} from 'react-native';
 
 const Qr = () => {
   const {order} = useOrderStore();

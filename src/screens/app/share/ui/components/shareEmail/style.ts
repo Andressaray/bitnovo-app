@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {colors, fonts} from '@ui/theme/index';
+import {colors, fonts} from '@theme';
 
 const styles = StyleSheet.create({
   btn: {
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: colors.light.blue,
     height: 60,
-    width: '65%',
+    width: '66%',
   },
   textDark: {
     color: colors.dark.white,

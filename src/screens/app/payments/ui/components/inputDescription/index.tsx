@@ -1,5 +1,5 @@
 import {TextInput, useColorScheme} from 'react-native';
-import {colors} from '@ui/theme';
+import {colors} from '@theme';
 import styles from './style';
 import {Props} from './type';
 

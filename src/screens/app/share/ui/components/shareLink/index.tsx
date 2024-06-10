@@ -23,8 +23,10 @@ const ShareLink = ({link, onPress, onQrPress}: Props) => {
           onPress();
           Keyboard.dismiss();
         }}>
-        <ILink style={{width: 20, height: 20}} />
-        <Text style={[styles.text, textColor]}>{link}</Text>
+        <ILink style={styles.icon} />
+        <Text style={[styles.text, textColor]} numberOfLines={1}>
+          {link}
+        </Text>
       </TouchableOpacity>
       <TouchableOpacity
         activeOpacity={0.7}

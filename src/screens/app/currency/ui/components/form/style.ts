@@ -1,10 +1,10 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 import {colors, fonts} from '@theme';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: -40,
+    marginTop: Platform.OS === 'ios' ? -40 : 0,
   },
   btnDisabled: {
     backgroundColor: colors.light.gray200,

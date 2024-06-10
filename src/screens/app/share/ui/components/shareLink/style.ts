@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {colors, fonts} from '@ui/theme/index';
+import {colors, fonts} from '@theme';
 
 const styles = StyleSheet.create({
   btn: {
@@ -13,6 +13,10 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     alignItems: 'center',
   },
+  icon: {
+    width: 20,
+    height: 20,
+  },
   btnQr: {
     width: 60,
     borderRadius: 6,
@@ -24,6 +28,7 @@ const styles = StyleSheet.create({
     fontFamily: fonts.regular,
     fontSize: 14,
     color: colors.light.blue,
+    flex: 1,
   },
   textDark: {
     color: colors.dark.white,

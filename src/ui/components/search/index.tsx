@@ -1,6 +1,6 @@
 import {Image, TextInput, View, useColorScheme} from 'react-native';
 import ISearch from '@icons/search.svg';
-import {colors} from '@ui/theme/index';
+import {colors} from '@theme';
 import {Props} from './type';
 import styles from './style';
 

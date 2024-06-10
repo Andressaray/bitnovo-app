@@ -3,7 +3,7 @@ import ICheck from '@icons/tick-circle.svg';
 import {Button, ModalBottom} from '@ui/components';
 import {Props} from './type';
 import styles from './styles';
-import {colors} from '@ui/theme/index';
+import {colors} from '@theme';
 
 const ModalShare = ({isVisible, onChange, option}: Props) => {
   const options = {

@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import {Animated, type ViewStyle} from 'react-native';
-import {colors} from '@ui/theme/index';
+import {colors} from '@theme';
 
 interface Props {
   styles: ViewStyle;

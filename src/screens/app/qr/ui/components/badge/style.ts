@@ -1,5 +1,5 @@
-import {StyleSheet} from 'react-native';
-import {colors, fonts} from '@ui/theme/';
+import {Platform, StyleSheet} from 'react-native';
+import {colors, fonts} from '@theme';
 
 const styles = StyleSheet.create({
   content: {
@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
     backgroundColor: colors.light.gray,
     borderRadius: 7,
     padding: 12,
+    marginTop: Platform.OS === 'ios' ? 0 : 10,
     marginBottom: 20,
-    marginTop: -40,
   },
   text: {
     fontSize: 12,
